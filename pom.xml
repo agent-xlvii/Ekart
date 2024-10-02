@@ -46,7 +46,7 @@
         <dependency>
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-rest-hal-browser</artifactId>
-            <version>3.4.0</version> <!-- Added version -->
+            <version>3.2.4</version> <!-- Updated version to a valid one -->
         </dependency>
 
         <!-- Spring Security -->
@@ -64,7 +64,7 @@
         <dependency>
             <groupId>org.thymeleaf.extras</groupId>
             <artifactId>thymeleaf-extras-springsecurity4</artifactId>
-            <version>3.0.4.RELEASE</version> <!-- Added version -->
+            <version>3.0.4.RELEASE</version> <!-- Retained version -->
         </dependency>
 
         <!-- Spring MVC -->
