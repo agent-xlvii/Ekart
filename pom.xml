@@ -46,6 +46,7 @@
         <dependency>
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-rest-hal-browser</artifactId>
+            <version>3.4.0</version> <!-- Added version -->
         </dependency>
 
         <!-- Spring Security -->
@@ -63,6 +64,7 @@
         <dependency>
             <groupId>org.thymeleaf.extras</groupId>
             <artifactId>thymeleaf-extras-springsecurity4</artifactId>
+            <version>3.0.4.RELEASE</version> <!-- Added version -->
         </dependency>
 
         <!-- Spring MVC -->
@@ -71,7 +73,7 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!-- hot swapping, disable cache for template, enable live reload -->
+        <!-- Hot swapping, disable cache for template, enable live reload -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
