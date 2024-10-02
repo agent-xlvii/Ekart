@@ -46,7 +46,7 @@
         <dependency>
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-rest-hal-browser</artifactId>
-            <version>3.3.9.RELEASE</version> <!-- Updated version -->
+            <version>3.3.9.RELEASE</version>
         </dependency>
 
         <!-- Spring Security -->
@@ -64,7 +64,7 @@
         <dependency>
             <groupId>org.thymeleaf.extras</groupId>
             <artifactId>thymeleaf-extras-springsecurity4</artifactId>
-            <version>3.0.4.RELEASE</version> <!-- Retained version -->
+            <version>3.0.4.RELEASE</version>
         </dependency>
 
         <!-- Spring MVC -->
@@ -92,6 +92,20 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <scope>runtime</scope>
+        </dependency>
+
+        <!-- Hibernate Validator -->
+        <dependency>
+            <groupId>org.hibernate.validator</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>6.2.0.Final</version> <!-- Add the correct version -->
+        </dependency>
+
+        <!-- JSR-303 Validation API -->
+        <dependency>
+            <groupId>javax.validation</groupId>
+            <artifactId>validation-api</artifactId>
+            <version>2.0.1.Final</version> <!-- Add the correct version -->
         </dependency>
 
         <!-- Tests -->
@@ -147,7 +161,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.0.0-M5</version> <!-- Updated Surefire Plugin version -->
+                <version>3.0.0-M5</version>
             </plugin>
         </plugins>
     </build>
